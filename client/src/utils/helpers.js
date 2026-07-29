@@ -4,7 +4,7 @@ export const getInitials = (name = '') =>
   name.split(' ').map((n) => n[0]).slice(0, 2).join('').toUpperCase();
 
 export const getAvatarUrl = (photo) =>
-  photo ? `${process.env.REACT_APP_API_URL?.replace('/api', '') || 'http://localhost:5000'}${photo}` : null;
+  photo ? `${process.env.REACT_APP_API_URL?.replace('/api', '') || 'https://justice-flow.onrender.com'}${photo}` : null;
 
 export const formatDate = (date) => {
   if (!date) return '';

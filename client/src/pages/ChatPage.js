@@ -164,7 +164,7 @@ const ChatPage = () => {
   };
 
   const isOnline = activePartner ? onlineUsers[activePartner._id] : false;
-  const BASE_URL = process.env.REACT_APP_API_URL?.replace('/api', '') || 'http://localhost:5000';
+  const BASE_URL = process.env.REACT_APP_API_URL?.replace('/api', '') || 'https://justice-flow.onrender.com';
 
   return (
     <div className="chat-page">

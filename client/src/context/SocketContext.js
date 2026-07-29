@@ -20,7 +20,7 @@ export const SocketProvider = ({ children }) => {
     }
 
     const token = localStorage.getItem('token');
-    const socket = io(process.env.REACT_APP_SOCKET_URL || 'http://localhost:5000', {
+    const socket = io(process.env.REACT_APP_SOCKET_URL || 'https://justice-flow.onrender.com', {
       auth: { token },
       reconnection: true,
       reconnectionAttempts: 5
