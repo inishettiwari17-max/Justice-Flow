@@ -1,0 +1,14 @@
+.edit-profile-page { padding-bottom: 4rem; }
+.edit-grid { display: grid; grid-template-columns: 240px 1fr; gap: 2rem; padding-top: 2rem; align-items: start; }
+.edit-photo-card { text-align: center; position: sticky; top: 80px; }
+.photo-preview { display: flex; justify-content: center; margin-bottom: 0.75rem; }
+.photo-preview .avatar-xl { border: 3px solid var(--gray-200); }
+.edit-role-badge { margin-top: 0.75rem; }
+.edit-forms { display: flex; flex-direction: column; gap: 1.5rem; }
+.edit-forms h3 { font-size: 1.05rem; font-weight: 800; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.4rem; }
+.form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+@media (max-width: 768px) {
+  .edit-grid { grid-template-columns: 1fr; }
+  .edit-photo-card { position: static; }
+  .form-row-2 { grid-template-columns: 1fr; }
+}

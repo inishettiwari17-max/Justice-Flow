@@ -1,0 +1,13 @@
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+.about-text h2 { font-size: 1.5rem; font-weight: 800; color: var(--primary-dark); margin-bottom: 1rem; }
+.about-text p { color: var(--gray-600); line-height: 1.8; margin-bottom: 1rem; }
+.about-list { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; color: var(--gray-700); line-height: 1.6; }
+.about-list li { font-size: 0.95rem; }
+.about-card { background: linear-gradient(135deg, var(--primary-dark), var(--primary)); border-radius: var(--radius-lg); padding: 2rem; }
+.about-stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.about-stat { text-align: center; color: #fff; }
+.about-stat-val { font-size: 2rem; font-weight: 900; line-height: 1; }
+.about-stat-label { font-size: 0.82rem; opacity: 0.75; margin-top: 0.3rem; }
+@media (max-width: 768px) {
+  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+}
